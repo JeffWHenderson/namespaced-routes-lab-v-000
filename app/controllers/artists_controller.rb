@@ -8,7 +8,9 @@ class ArtistsController < ApplicationController
   end
 
   def new
+    raise Preference.first.inspect
     @artist = Artist.new
+    
   end
 
   def create
