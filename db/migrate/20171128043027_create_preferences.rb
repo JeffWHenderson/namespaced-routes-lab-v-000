@@ -10,9 +10,3 @@ class CreatePreferences < ActiveRecord::Migration
     end
   end
 end
-
-
-t.string   "song_sort_order"
-t.string   "artist_sort_order"
-t.boolean  "allow_create_songs"
-t.boolean  "allow_create_artists"
