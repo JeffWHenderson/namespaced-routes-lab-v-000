@@ -5,7 +5,7 @@ class CreatePreferences < ActiveRecord::Migration
       t.string :artist_sort_order
       t.boolean :allow_create_songs
       t.boolean :allow_create_artists
-      
+
       t.timestamps null: false
     end
   end
